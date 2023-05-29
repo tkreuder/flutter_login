@@ -23,7 +23,7 @@ class UserCheckboxFormField extends UserFormField {
   final String? linkUrl;
 
   /// The validator of the checkbox
-  final FormFieldValidator<bool> validator;
+  final FormFieldValidator<bool>? validator;
 
   final InlineSpan? tooltip;
 
