@@ -29,7 +29,7 @@ class UserCheckboxFormField extends UserFormField {
 
   const UserCheckboxFormField({
     required super.keyName,
-    required this.validator,
+    this.validator,
     super.displayName,
     this.tooltip,
     this.linkUrl,
